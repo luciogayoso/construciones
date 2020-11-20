@@ -1,0 +1,43 @@
+@media (min-width: 700px) {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.cardImg {
+    border-radius:10px 10px 10px 10px;
+    width: 90%;
+    border: 1px solid gray;
+}
+}
+
+@media (max-width: 700px) { 
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 29px;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .cardImg {
+        border-radius:5px 5px 5px 5px;
+        width: 100%;
+        margin-bottom: 19px;
+    }
+ }

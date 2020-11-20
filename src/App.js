@@ -1,5 +1,6 @@
 import './App.css';
 import Carrucel from './Component/carrucel';
+import Footer from './Component/Footer';
 import NavBar from './Component/Navbar'
 import TrabajosRalisamos from './Component/TrabajosRalisamos';
 
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Carrucel />
       <TrabajosRalisamos />
+      <Footer />
     </div>
   );
 }
